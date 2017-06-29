@@ -17,3 +17,5 @@ RUN apt-get update && \
 ENV PATH ${PATH}:/opt/mssql-tools/bin
 
 EXPOSE 1433
+
+CMD ["/bin/bash"]
